@@ -1,0 +1,258 @@
+body{
+  background-color: rgb(168, 165, 165);
+  font-family:helvetica;
+}
+main{
+  background-color:lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* cabeçalho: inicio*/
+.header-cor{
+  background: #585757;
+}
+
+.header_area{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu_area{
+  margin-top: 15px;
+}
+
+.menu_area nav a{
+  background-color: #2c2b2c;
+  color:white;
+  margin-bottom: 10px;
+  padding: 5px;
+ 
+}
+.menu_area nav a:hover{
+  background-color: #6a686b;
+  font-size:110%;
+}
+.active{
+  background-color: #b4b4b4 !important;
+}
+.logo{
+  width: 150px;
+}
+
+
+@media screen and (min-width:601px) and (max-width:992px)
+{ /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  header{
+ 
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 30;
+  
+}
+  .menu_area nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ 
+}
+
+}
+
+@media screen and (max-width:600px){
+header{
+ 
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 30;
+  
+}
+.menu_area nav{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.header_area{
+  padding-top: 0px;
+}
+#button-nav{
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+}
+.container {
+  width: 80%; /* define a largura do campo */ 
+  position: relative;;  /* cria o contexto de posicionamento do botão */ 
+}
+input {width: 100%;} /* define a largura do campo igual a largura do container */
+input,  button {padding: 5px;}
+button {
+  position: absolute;   
+  top: 0; 
+  right: 0;
+  /* posiciona o botão em relação ao container, mas
+  como o campo está exatamente contido no container
+  o posicionamento se dá também em relação ao campo */
+}
+/* cabeçalho: final*/
+
+/* main: inicio*/
+/*estilização do carousel: inicio*/
+.main_area .carousel-item iframe{
+  
+}
+.main_area .carousel-item{
+
+}
+.main_area .carousel-texto{
+
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#carousel-site li{
+  background-color:red;
+}
+.carousel-item .row{
+  background-color:rgba(236, 239, 240, 0.925);
+  border-radius: 50px;
+}
+.carousel-item #carousel-estilo-do-video{
+  max-width: 100%; min-width: 100%; max-height: 100%; min-height: 100%;
+  border-radius: 20px;
+}
+.carousel-inner{
+  border-radius: 30px;
+}
+
+.carousel-item .carousel-lancamento{
+  text-align: center; background-color:black; color:white;
+  
+}
+.carousel-item #carousel-texto{
+  padding: 20px;
+}
+/*estilização do carousel: final*/
+
+/*em destaque: inicio*/
+.em-destaque-filmes div{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.em-destaque-filmes div img{
+  max-width: 100%;
+  text-align: center;
+}
+/*em destaque: final*/
+
+/*ultimas avaliações: inicio*/
+.ultimas-avaliacoes-editar-texto{
+  margin-top: 20px;
+}
+.ultimas-avaliacoes-comentarios-editar{
+  padding: 10px;
+  background-color: white;
+  margin: 1px;
+  border-radius: 10px;
+  
+}
+.ultimas-avaliacoes-comentarios{
+  align-items: center;
+  margin-bottom:10px ;
+}
+.ultimas-avaliacoes-comentarios div{
+  
+}
+.ultimas-avaliacoes-comentarios img{
+  max-width: 100%;
+  text-align: center;
+  border-radius: 50%;
+}
+.checked {
+  color: orange;
+}
+/*ultimas avaliações: final*/
+
+/* entrevistas & making of: inicio*/
+.cor-entrevistas{
+  background-color:rgba(236, 239, 240, 0.925);
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.entrevistas-making-of-editar{
+  
+  
+}
+.entrevistas-making-of{
+  text-align: center;
+  margin-bottom:10px ;
+}
+.entrevistas-making-of iframe{
+  max-width: 100%;
+  text-align: center;
+}
+/* entrevistas & making of: inicio*/
+
+/* texto das seções: inicio*/
+.texto-das-secoes{
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/* texto das seções: final*/
+
+/*botões das seções: inicio*/
+#botoes-das-secoes h4{
+  display: inline;
+}
+#botoes-das-secoes p{
+  display: inline;
+}
+#botoes-das-secoes{
+  text-align: right;
+}
+/*botões das seções: final*/
+
+/*novidades e sobre: inicio*/
+.novidades-imagens{
+  max-width: 100%;
+  margin: auto 0;
+}
+.editar-novidades{
+ margin-bottom: 10px;
+ padding-bottom: 10px;
+}
+.editar-novidades-barra{
+  border-bottom: 2px solid ;
+  
+}
+/*novidades e sobre: final*/
+
+/* footer: inicio*/
+.footer-cor{
+  background: #585757;
+  color: white;
+ 
+}
+.footer_area{
+  padding: 20px;
+  text-align: center;
+  
+}
+.footer_area img{
+  max-width: 100px;  
+}
+#direitos{
+  margin-top: 20px;
+}
+#position-logo-puc{
+    
+}
+/* footer: final*/
