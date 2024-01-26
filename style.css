@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(168, 165, 165);
+  font-family:helvetica;
+}
+main{
+  background-color:lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* cabeçalho: inicio*/
+
+
+html{
+  scroll-behavior: smooth;
+}
+.logo{
+  width: 150px;
+}
+header{
+  position: sticky;
+}
